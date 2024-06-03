@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<h2>Cadastro de Contatos</h2>
+
+<form id="contactForm">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+    <label for="phone">Telefone:</label>
+    <input type="text" id="phone" name="phone" required>
+    <br><br>
+    <button id="btn-cadastrar" type="addContact">Cadastrar</button>
+   
+</form>
+
+<table id="contactsTable">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- As linhas da tabela serão adicionadas aqui -->
+    </tbody>
+</table>
+
+<script src="main.js"></script>
+
+</body>
+</html>
